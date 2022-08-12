@@ -3,6 +3,7 @@
 body{
 background-color: rgb(70, 70, 70);
 overflow-x: hidden;
+overflow-y: scroll;
 }
 
 header{
@@ -39,6 +40,7 @@ margin-top: 50px;
     position: absolute;
 text-align: center;
 width: 100%;
+min-height:calc(100vh -100px - 300px);
 }
 .pie-pagina .contenedorFooter{
     width: 100%;
@@ -73,5 +75,7 @@ width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
+        bottom: 0%;
+        min-height:calc(100vh -100px - 300px);
     }
 }
