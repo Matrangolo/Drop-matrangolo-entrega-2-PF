@@ -1,0 +1,19 @@
+{
+  "name": "prueba_sass",
+  "version": "1.0.0",
+  "description": "probamos el sass para ver como funciona",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matrangolo/Drop-matrangolo-entrega-2-PF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matrangolo/Drop-matrangolo-entrega-2-PF/issues"
+  },
+  "homepage": "https://github.com/Matrangolo/Drop-matrangolo-entrega-2-PF#readme"
+}
