@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: map-get($colores, ColorFondo );
  h4{ .textoEnvios{
     position: relative;
 margin-right: 10px;
@@ -30,7 +30,7 @@ main{
 }
 
 footer{
-    background-color:black;
+    background-color:map-get($colores, ColorFondo);
     .pie-pagina{
         bottom: 0;
         position: fixed;
@@ -57,11 +57,11 @@ footer{
     .redeSociales a{
         display: inline-block;
         text-decoration: none;
-        width: 45px;
-        height: 45px;
+        width:map-get($sizes , 45w );
+        height:map-get($sizes , 45h );
         line-height: 45px;
         margin-right: 10px;
-        background-color:#0d8109;
+        background-color:map-get($colores, ColorNav );
         text-align: center;
         transition: all 300ms ease;
     }
