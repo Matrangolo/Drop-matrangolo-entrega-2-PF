@@ -73,4 +73,79 @@ footer .redeSociales a {
   transition: all 300ms ease;
 }
 
+.productos{
+  color: white;
+  } 
+  
+  .productos__titulo{
+  font-size: 2.5em;
+   text-align: left;
+   padding-left: 100px;
+   padding-top: 20px;
+  }
+  
+  .productos__subtitulo{
+      text-align: left;
+      padding-left: 100px;
+  }
+  
+  .productos__galeria{
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%; 
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  }
+  
+  .productosBarra{
+  padding-left: 25px;
+  }
+
+  .marcas{
+    color: white;
+    }
+    
+    .marcas__titulo{
+        font-size: 2.5em;
+        text-align: left;
+        padding-left: 100px;
+        padding-top: 20px;
+        }
+    
+    .marcas__subtitulo{
+        text-align: left;
+        padding-left: 100px;
+    }
+    
+    .navegadorMarcas{
+        padding: 4em;
+        margin-left: 2.5em;
+    }
+    
+    .imagenesMarcas{
+        position:relative;
+        padding: 15px;
+    margin-left: 50%;
+    margin-top: -350px;
+    }
+
+    .imagenUsuario{
+      position: absolute;
+      top: 165px;
+     }
+     
+         .contactanos{
+         color: white;
+         border-color: green;
+         font-size: 30px;
+         margin-left: 150px;
+         padding-bottom: 5px;
+         }
+     
+         .formulario{
+         color: white;
+         font-size: 25px;
+         padding: 50px;
+         }
 /*# sourceMappingURL=estilos.css.map */

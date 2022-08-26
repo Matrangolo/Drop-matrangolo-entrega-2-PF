@@ -1,0 +1,28 @@
+.productos{
+    color: white;
+    } 
+    
+    .productos__titulo{
+    font-size: 2.5em;
+     text-align: left;
+     padding-left: 100px;
+     padding-top: 20px;
+    }
+    
+    .productos__subtitulo{
+        text-align: left;
+        padding-left: 100px;
+    }
+    
+    .productos__galeria{
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    }
+    
+    .productosBarra{
+    padding-left: 25px;
+    }
